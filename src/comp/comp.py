@@ -69,7 +69,7 @@ print(e)
 # age, for example ("David", 31), for everyone between the ages of 27 and 32,
 # inclusive.
 print("Names and ages between 27 and 32:")
-f = [f"{h.name} - {h.name}" for h in humans if h.age < 32 and h.age > 27]
+f = [f"{h.name} - {h.age}" for h in humans if h.age < 32 and h.age > 27]
 #for h in humans:
  #   if h.age < 32 and h.age > 27:
   #      f.append(f"{h.name} - {h.age}")
